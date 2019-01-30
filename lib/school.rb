@@ -20,6 +20,6 @@ class School
   end
 
   def sort
-    @roster
+    @roster. sort { |x,y| x <=> y }
   end
 end
