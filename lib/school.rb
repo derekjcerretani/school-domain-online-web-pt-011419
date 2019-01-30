@@ -23,9 +23,7 @@ class School
 
   def sort
     @roster.each do |grade, name|
-      name.sort_by do |key, value|
-        value
-      end
+      @roster.merge.name.sort
     end
   end
 end
