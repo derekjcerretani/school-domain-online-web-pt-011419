@@ -18,10 +18,10 @@ class School
   end
 
   def grade(grade)
-    @values = @roster[grade]
+    @roster[grade]
   end
 
   def sort
-    @values.sort
+    @roster.sort_by { |key, value| value}
   end
 end
