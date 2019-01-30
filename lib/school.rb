@@ -20,5 +20,6 @@ class School
   end
 
   def sort
+    grade.sort
   end
 end
