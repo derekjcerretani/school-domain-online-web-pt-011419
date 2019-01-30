@@ -16,10 +16,10 @@ class School
   end
 
   def grade(grade)
-    @roster[@grade]
+    @roster[grade]
   end
 
   def sort
-    @roster[@grade].sort { |x,y| x <=> y }
+    grade(grade).sort { |x,y| x <=> y }
   end
 end
