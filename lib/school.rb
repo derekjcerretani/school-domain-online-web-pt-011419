@@ -20,6 +20,6 @@ class School
   end
 
   def sort
-    @roster.values.sort { |x,y| x <=> y }
+    @roster[grade].values.sort { |x,y| x <=> y }
   end
 end
