@@ -1,3 +1,5 @@
+require 'pry'
+
 class School
 
   attr_reader :name, :roster
@@ -21,5 +23,6 @@ class School
 
   def sort
     grade.sort
+    
   end
 end
