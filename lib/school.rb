@@ -22,9 +22,9 @@ class School
   end
 
   def sort
-    @roster.collect do |grade, name|
-      name.sort
-      @roster.to_h
+    @roster.each do |grade, name|
+      #name.sort
+      @roster[grade] << name.sort
     end
   end
 end
