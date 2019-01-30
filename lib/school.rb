@@ -20,6 +20,6 @@ class School
   end
 
   def sort
-    grade(grade).sort { |x,y| x <=> y }
+    grade.sort { |x,y| x <=> y }
   end
 end
