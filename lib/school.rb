@@ -18,10 +18,10 @@ class School
   end
 
   def grade(grade)
-    values = @roster[grade]
+    @values = @roster[grade]
   end
 
   def sort
-    @grade.sort
+    @values.sort
   end
 end
